@@ -9,7 +9,7 @@ export default function Filter({count, size, sort, sortProducts, filterProducts}
             <div className="filter-sort">
                 Order&nbsp;
                 <select value={sort} onChange={sortProducts}>
-                    <option>Latest</option>
+                    <option value="latest">Latest</option>
                     <option value="lowest">Lowest</option>
                     <option value="highest">Highest</option>
                 </select>
